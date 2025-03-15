@@ -1,8 +1,17 @@
-# React + Vite
+🖼️ 3D 인터랙티브 갤러리 (React Three Fiber)
+커서를 활용한 3D 갤러리로, 직접 모델링한 12개의 작품을 감상할 수 있습니다.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛠 기술 스택
+React Three Fiber (Three.js 기반 React 라이브러리)
+GLTF 모델 (Blender로 제작 및 익스포트)
+JavaScript & React
 
-Currently, two official plugins are available:
+🎨 주요 기능
+✅ 3D 모델을 마우스로 조작 가능 (클릭하면 확대, 회전)
+✅ 커서를 이용한 부드러운 카메라 이동
+✅ 최적화된 모델 로딩으로 부드러운 렌더링
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⏳ 작업 과정
+Blender로 직접 모델링한 12개 오브젝트
+총 작업 시간: 1일
+추가 개발 계획: 애니메이션 효과 추가, 모바일 최적화, UI 개선
